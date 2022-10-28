@@ -26,6 +26,14 @@ const PortfolioListContent = [
     info: "System where you can log in and watch classes that are on graphcms.",
   },
   {
+    image: "image-7",
+    category: "ReactJs, HTML, Sass",
+    title: "Bodega Ecommerce",
+    link: "https://checkpoint-integrador-frontend.vercel.app/",
+    repo: "https://github.com/juniorvilas/CheckpointIntegrador_Frontend",
+    info: "Project based on an ecommerce to add items to a shopping cart.",
+  },
+  {
     image: "image-1",
     category: "Javascript, HTML, CSS",
     title: "Keep Notes",
