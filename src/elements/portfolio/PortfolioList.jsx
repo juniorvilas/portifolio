@@ -5,7 +5,7 @@ const PortfolioListContent = [
     image: "image-8",
     category: "ReactJs, React Native, NodeJs",
     title: "Habits - NLW Setup",
-    link: "https://ignite-lab-design-system-nu.vercel.app/",
+    link: "",
     repo: "https://github.com/juniorvilas/nlw-setup",
     info: "In this complete project with front and back, it is possible to create daily habits for your day to day.",
   },
