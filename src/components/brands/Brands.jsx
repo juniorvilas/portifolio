@@ -1,5 +1,6 @@
-import React, { Component } from "react"
-import arloesi from "../../assets/images/brand/arloesi.png"
+import React, { Component } from "react";
+import arloesi from "../../assets/images/brand/arloesi.png";
+import colab from "../../assets/images/brand/colab.jpg";
 
 class brand extends Component {
   render() {
@@ -21,11 +22,15 @@ class brand extends Component {
             <a href="https://arloesitech.com.br/">
               <img src={arloesi} alt="Logo Arloesi" />
             </a>
-
+          </li>
+          <li>
+            <a href="https://www.colab.com.br/">
+              <img src={colab} alt="Logo Colab" />
+            </a>
           </li>
         </ul>
       </React.Fragment>
-    )
+    );
   }
 }
-export default brand
+export default brand;

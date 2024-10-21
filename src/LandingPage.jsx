@@ -1,18 +1,18 @@
-import React from "react"
-import ScrollToTop from "react-scroll-up"
-import { FiChevronUp } from "react-icons/fi"
-import Helmet from "./components/common/Helmet"
-import TextLoop from "react-text-loop"
-import Header from "./components/header/Header"
-import Footer from "./components/footer/Footer"
-import Tab from "./elements/tab/Tab"
-import Contact from "./elements/contact/Contact"
-import PortfolioList from "./elements/portfolio/PortfolioList"
-import ServiceList from "./elements/service/ServiceList"
-import Particles from "react-particles-js"
-import Brand from "./components/brands/Brands"
-import avatar from "./assets/images/about/avatar.jpg"
-import myPDF from "./assets/Carlindo_Junior_CV.pdf"
+import React from "react";
+import ScrollToTop from "react-scroll-up";
+import { FiChevronUp } from "react-icons/fi";
+import Helmet from "./components/common/Helmet";
+import TextLoop from "react-text-loop";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Tab from "./elements/tab/Tab";
+import Contact from "./elements/contact/Contact";
+import PortfolioList from "./elements/portfolio/PortfolioList";
+import ServiceList from "./elements/service/ServiceList";
+import Particles from "react-particles-js";
+import Brand from "./components/brands/Brands";
+import avatar from "./assets/images/about/avatar.jpg";
+import myPDF from "./assets/Carlindo_Junior_CV.pdf";
 
 const SlideList = [
   {
@@ -22,11 +22,11 @@ const SlideList = [
     buttonText: "",
     buttonLink: "",
   },
-]
+];
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      "Hello I'm Junior, Frontend Developer, building projects with Javascript/(React,Next, TypeScript, React Query, Styled Components), with more than 2 years of experience in developing web applications. I have a keen eye for business, new methodologies."
+      "Hello I'm Junior, Fullstack Developer, building projects with Javascript/(React,Next, TypeScript, React Query, Styled Components, Tailwind, NodeJs, Nest), with more than 2 years of experience in developing web applications. I have a keen eye for business, new methodologies.";
   // const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark">
@@ -117,7 +117,7 @@ const PortfolioLanding = () => {
                       <h1 className="title">
                         Hi, I’m Junior <br />
                         <TextLoop interval={1500}>
-                          <span> Frontend Developer.</span>
+                          <span> Fullstack Developer.</span>
                           <span> Gamer.</span>
                         </TextLoop>{" "}
                       </h1>
@@ -351,7 +351,7 @@ const PortfolioLanding = () => {
       </div>
       {/* End Back To Top */}
     </div>
-  )
-}
+  );
+};
 
-export default PortfolioLanding
+export default PortfolioLanding;
